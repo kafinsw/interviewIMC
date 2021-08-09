@@ -1,0 +1,29 @@
+<template>
+  <div class="main">
+    <a href="http://localhost:8080/">
+      <img alt="Vue logo" src="./assets/logoIMC.jpeg" />
+    </a>
+    <p>Indie Marketindo Ceria</p>
+  </div>
+</template>
+
+<script>
+import Home from './components/Home.vue';
+
+export default {
+  name: 'App',
+};
+</script>
+
+<style scoped>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 20px;
+}
+.main {
+  text-align: center;
+}
+</style>

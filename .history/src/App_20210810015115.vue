@@ -1,0 +1,39 @@
+<template>
+  <div class="main">
+    <a href="http://localhost:8080/">
+      <img alt="Vue logo" src="./assets/logoIMC.jpeg" />
+    </a>
+    <a style="color:black" href="https://imceria.com/" target="_blank"
+      ><Home msg="Indie Marketindo Ceria"
+    /></a>
+  </div>
+</template>
+
+<script>
+import Home from './components/Home.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Home,
+  },
+};
+</script>
+
+<style scoped>
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+.main {
+  text-align: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+</style>
